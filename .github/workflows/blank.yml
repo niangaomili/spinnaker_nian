@@ -9,11 +9,11 @@ jobs:
       - name: Login in Docker Registry
         uses: docker/login-action@v1
         with:
-          registry: 835460503@qq.com
-          username: 835460503@qq.com
-          password: 1230.zxCV
+          registry: registry.cn-beijing.aliyuncs.com
+          username: chexidongdi@rongheyun.net
+          password: Asdf1234
       - name: Docker pull and push
         run: |
           docker pull us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018
-          docker tag us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018 18630429677/spinnaker_nian/echo:2.14.0-20200817170018
-          docker push 18630429677/spinnaker_nian/echo:2.14.0-20200817170018
+          docker tag us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018 registry.cn-beijing.aliyuncs.com/imagebakecho:2.14.0-20200817170018
+          docker push registry.cn-beijing.aliyuncs.com/imagebakecho:2.14.0-20200817170018
