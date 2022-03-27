@@ -9,7 +9,7 @@ jobs:
       - name: Login in Docker Registry
         uses: docker/login-action@v1
         with:
-          registry: ghcr.io
+          registry: 18630429677/spinnaker_nian
           username: niangaomili
           password: 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
       - name: Docker pull and push
