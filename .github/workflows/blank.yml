@@ -15,5 +15,5 @@ jobs:
       - name: Docker pull and push
         run: |
           docker pull us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018
-          docker tag us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018 835460503@qq.com/spinnaker_nina/echo:2.14.0-20200817170018
-          docker push 835460503@qq.com/spinnaker_nina/echo:2.14.0-20200817170018
+          docker tag us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018 835460503@qq.com/spinnaker_nian/echo:2.14.0-20200817170018
+          docker push 835460503@qq.com/spinnaker_nian/echo:2.14.0-20200817170018
