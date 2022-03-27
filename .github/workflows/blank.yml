@@ -9,9 +9,11 @@ jobs:
       - name: Login in Docker Registry
         uses: docker/login-action@v1
         with:
-          registry: 18630429677
-          username: niangaomili
-          password: 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
+          registry: 835460503@qq.com
+          username: 835460503@qq.com
+          password: 1230.zxCV
       - name: Docker pull and push
         run: |
           docker pull us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018
+          docker tag us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018 835460503@qq.com/spinnaker_nina/echo:2.14.0-20200817170018
+          docker push 835460503@qq.com/spinnaker_nina/echo:2.14.0-20200817170018
