@@ -1,0 +1,1 @@
+FROM us-docker.pkg.dev/spinnaker-community/docker/echo:2.14.0-20200817170018
