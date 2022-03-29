@@ -14,6 +14,4 @@ jobs:
           password: Asdf1234
       - name: Docker pull and push
         run: |
-          docker pull us-docker.pkg.dev/spinnaker-community/redis/redis-cluster:v2
-          docker tag us-docker.pkg.dev/spinnaker-community/redis/redis-cluster:v2 registry.cn-beijing.aliyuncs.com/imagebak/redis-cluster:v2
-          docker push registry.cn-beijing.aliyuncs.com/imagebak/redis-cluster:v2
+          docker search deck
