@@ -14,4 +14,5 @@ jobs:
           password: Asdf1234
       - name: Docker pull and push
         run: |
-          docker search spinnaker-cd/deck
+          docker pull us-docker.pkg.dev/spinnaker-community/docker/deck:2.13.1-20191111102213
+          docker tag us-docker.pkg.dev/spinnaker-community/docker/deck:2.13.1-20191111102213 
