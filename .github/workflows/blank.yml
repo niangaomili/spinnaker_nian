@@ -14,4 +14,4 @@ jobs:
           password: Asdf1234
       - name: Docker pull and push
         run: |
-          docker pull armory/deck:lastest
+          docker search spinnaker-cd/deck
