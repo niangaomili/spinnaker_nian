@@ -14,6 +14,6 @@ jobs:
           password: Asdf1234
       - name: Docker pull and push
         run: |
-          docker pull us-docker.pkg.dev/spinnaker-community/docker/deck:2.13.1-20191111102213
-          docker tag us-docker.pkg.dev/spinnaker-community/docker/deck:2.13.1-20191111102213 registry.cn-beijing.aliyuncs.com/imagebak/deck:2.13.1-20191111102213
-          docker push registry.cn-beijing.aliyuncs.com/imagebak/deck:2.13.1-20191111102213
+          docker pull us-docker.pkg.dev/spinnaker-community/docker/halyard：1.39.0
+          docker tag us-docker.pkg.dev/spinnaker-community/docker/halyard：1.39.0 registry.cn-beijing.aliyuncs.com/imagebak/halyard：1.39.0
+          docker push registry.cn-beijing.aliyuncs.com/imagebak/halyard：1.39.0
